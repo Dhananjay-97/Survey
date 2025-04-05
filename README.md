@@ -39,6 +39,38 @@ AI Survey Generator is a powerful tool that automates the creation of survey que
 
 **📂 Directory Structure (Simple Overview):**
 
+└── dhananjay-97-survey/
+├── README.md
+├── app.py
+├── config.ini
+├── flask_api.py
+├── survey_generator.py
+├── prompts/
+│ ├── prompts_chatgpt/
+│ │ ├── prompt_business_overview.json
+│ │ ├── prompt_choices_matrix.json
+│ │ ├── prompt_choices_mcq.json
+│ │ ├── prompt_matrix_oe.json
+│ │ ├── prompt_research_objective.json
+│ │ ├── prompt_survey_generator.json
+│ │ └── prompt_video_question.json
+│ └── prompts_gpt3/
+│ ├── prompt_business_overview.json
+│ ├── prompt_choices_matrix.json
+│ ├── prompt_choices_mcq.json
+│ ├── prompt_matrix_oe.json
+│ ├── prompt_research_objective.json
+│ ├── prompt_survey_generator.json
+│ └── prompt_video_question.json
+├── static/
+│ └── css/
+│ └── style.css
+└── templates/
+├── business_overview.html
+├── project_details.html
+├── questionnaire.html
+└── research_objectives.html
+
 ├── app.py, flask_api.py, survey_generator.py # ⚙️ Core application code
 ├── config.ini # ⚙️ Configuration settings
 ├── prompts/ # 🗣️ AI prompts for survey generation
