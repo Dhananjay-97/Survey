@@ -38,6 +38,7 @@ AI Survey Generator is a powerful tool that automates the creation of survey que
 ---
 
 **📂 Directory Structure (Simple Overview):**
+
 ├── app.py, flask_api.py, survey_generator.py # ⚙️ Core application code
 ├── config.ini # ⚙️ Configuration settings
 ├── prompts/ # 🗣️ AI prompts for survey generation
